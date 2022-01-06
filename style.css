@@ -2,3 +2,144 @@ body{
     font-family: 'Mochiy Pop P One', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
+.half-width h1{
+    color: black;
+    font-size: 40px;
+}
+.half-width h2{
+    color: brown;
+    font-size: 30px;
+}
+h3{
+    color: brown;
+}
+section{
+    padding-left: 20px ;
+
+}
+.border{
+    border-left: 7px solid;
+    border-image: linear-gradient(steelblue, rgb(146, 17, 17));
+    border-image-slice: 1;
+    
+
+
+}
+.click-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue violet);
+    padding: 10px 30px;
+    color: cyan;
+    font-weight: 800;
+    border-radius: 5px;
+    background: black;
+}
+.half-width{
+    width: 50%;
+}
+.side-flex{
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+.back1{
+    background: #e9dfdf;
+    border-radius: 10px;
+    padding:2%;
+}
+.back2{
+    background: #999dc4;
+    border-radius: 10px;
+    padding:2%;
+}
+.back3{
+    background: #b47b9e;
+    border-radius: 10px;
+    padding:2%;
+}
+
+
+.illus img{
+    width:40%;
+}
+#my-mission{
+    width:100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.illus{
+    width:30%;
+    margin-left:50px;
+}
+.mission h2{
+    text-align: center;
+    color:brown;
+    font-size: 40px;
+    
+}
+.mission h2 span{
+    color:purple;
+    font-size: 50px;
+}
+.illus p{
+    text-align: justify;
+    line-height: 24px;
+}
+.dev_flex{
+    display: flex;
+    width:100%;
+}
+.dev_img{
+    width:40%;
+}
+.dev_img img{
+    width:95%;
+    margin-left: 40px;
+}
+.dev_text{
+    width:40%;
+    margin-left: 100px;
+    margin-top: 180px;
+}
+.dev_text a{
+    text-decoration: none;
+    background-image: linear-gradient(blue violet);
+    padding: 10px 30px;
+    color: cyan;
+    font-weight: 800;
+    border-radius: 5px;
+    background: black;
+}
+.dev_text h2{
+    color: brown;
+}
+.com_flex{
+    display: flex;
+    width:100%;
+    margin-top: 150px;
+}
+.com_img{
+    width:40%;
+}
+.com_img img{
+    width:95%;
+    margin-left: 40px;
+}
+.com_text{
+    width:40%;
+    margin-left: 100px;
+    margin-top: 180px;
+}
+.com_text a{
+    text-decoration: none;
+    background-image: linear-gradient(blue violet);
+    padding: 10px 30px;
+    color: cyan;
+    font-weight: 800;
+    border-radius: 5px;
+    background: black;
+}
+.com_text h2{
+    color: brown;
+}
