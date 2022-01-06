@@ -118,6 +118,7 @@ section{
     display: flex;
     width:100%;
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 .com_img{
     width:40%;
@@ -142,4 +143,46 @@ section{
 }
 .com_text h2{
     color: brown;
+}
+#motiv-flex{
+    width: 100%;
+    margin-bottom: 150px;
+}
+#motiv-flex h4{
+    color: #07116e;
+    font-weight: 800;
+}
+.motiv-img img{
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.motiv-text{
+    width: 70%;
+}
+.again-flex{
+    margin-right:15px;
+    display: flex;
+    border: 15px dashed ;
+    border-image: linear-gradient(rgb(8, 38, 63), rgb(21, 146, 17));
+    border-image-slice: 1;
+    padding-right:80px;
+}
+.footer{
+    padding:50px;
+    background: black;
+}
+.footer h2{
+    color:#fff;
+    text-align: center;
+    font-size: 50px;
+}
+.footer span{
+    color:red;
+    text-align: center;
+    font-size: 50px;
+}
+.footer h4{
+    color:#fff;
+    text-align: center;
 }
